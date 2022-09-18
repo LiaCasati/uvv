@@ -1,0 +1,28 @@
+.content h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .content p {
+    color: #444444;
+    text-align: -webkit-match-parent;
+    font-size: larger;
+  }
+
+  img {
+    object-fit: cover;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 8px;
+    align-items: center;
+    width: 600px;
+    height: 300px;;
+  }
+
+  .content {
+    padding: 6px 8px;
+    display: grid;
+    gap: 12px;
+    grid-template-rows: min-content 1fr;
+  }
+  
